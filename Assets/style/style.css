@@ -73,16 +73,17 @@ nav ul {
 }
 
 nav li { 
+    margin: 0 8px;
+    padding: 0 3px 3px 3px;
     border-bottom: 3px solid var(--light);
-    margin: 0 10px;
 }
 
-    /* Hero */
+        /* Hero */
 .hero { 
     height: 200px;
     width: 100%;
     color: var(--gray);
-    background-color: aqua;
+    background-image: url("./Assets/images/hero.jpg");
     display: flex;
     justify-content: end;
     align-items: end;
