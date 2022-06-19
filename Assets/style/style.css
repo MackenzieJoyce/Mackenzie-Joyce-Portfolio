@@ -38,6 +38,7 @@ h4 {
 
 p { 
     line-height: 1.2rem;
+    margin-bottom: .8rem;
 }
 
 a { 
@@ -96,19 +97,24 @@ nav li {
     background: var(--light);
 }
 
-        /* Page Content */
-#page-content { 
+        /* Porfolio */
+/* .portfolio { 
     margin: 10px 50px;
     display: flex;
-    justify-content: center; 
-}
-
-#page-content h3 > div {
-    border-left: 3px solid var(--dark);
-}
+    flex-direction: column;
+    justify-content: space-between; 
+} */
 
 
         /* About Me */
+.about-me { 
+    display: flex;
+}
+
+.about-me > div { 
+    margin: 0 30px;
+}
+
 .about-me h2 { 
     text-align: right;
 }
