@@ -52,7 +52,10 @@ a {
     color: var(--light);
 }
 
-
+li { 
+    margin: 0 8px;
+    padding: 0 3px 3px 3px;
+}
 
 /* Styling */
         /* Header */
@@ -80,8 +83,8 @@ nav ul {
 }
 
 nav li {
-    margin: 0 8px;
-    padding: 0 3px 3px 3px;
+    /* margin: 0 8px;
+    padding: 0 3px 3px 3px; */
     color: var(--light);
     border-bottom: 3px solid var(--light);
 }
