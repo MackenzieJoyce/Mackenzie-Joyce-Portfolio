@@ -77,12 +77,12 @@ nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
 }
 
 nav li {
     margin: 0 8px;
     padding: 0 3px 3px 3px;
+    color: var(--light);
     border-bottom: 3px solid var(--light);
 }
 
@@ -168,7 +168,7 @@ nav li {
     justify-content: center;
 }
 
-.contact-me  li, a { 
+.contact-me  li > a { 
     margin-left: 20px;
     color: var(--dark);
 }
