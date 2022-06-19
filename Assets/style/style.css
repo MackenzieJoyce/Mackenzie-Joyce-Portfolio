@@ -153,14 +153,26 @@ nav li {
 }
 
         /* Contact Me */
-.contact-me > ul { 
+.contact-me {
+    height: fit-content;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
-/* ADD BOTTOM BORDER */
+    align-items: center;
+    justify-content: space-between;
 }
 
-.contact-me > li, a { 
-    width: fit-content;
+.contact-me ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-me  li, a { 
+    margin-left: 20px;
     color: var(--dark);
+}
+
+.contact-me a { 
     border-bottom: 3px solid var(--dark);
 }
