@@ -124,13 +124,16 @@ nav li {
 }
 
         /* About Me */
-.about-me > div {
+.about-me > h2, 
+.work > h2,
+.contact-me > h2 {
     margin: 0 30px;
+    padding-top: 10px;
+    padding-right: 15px;
+    border-right: 3px solid var(--light);
 }
 
 .about-me h2 {
     text-align: right;
 }
 
-
-/* DOING NOW: centering .porfolio-section to main */
