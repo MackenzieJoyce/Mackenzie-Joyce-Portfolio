@@ -105,10 +105,18 @@ nav li {
     justify-content: space-between; 
 } */
 
+.portfolio { 
+    margin: 20px 100px 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
         /* About Me */
 .about-me { 
     display: flex;
+
 }
 
 .about-me > div { 
@@ -118,5 +126,3 @@ nav li {
 .about-me h2 { 
     text-align: right;
 }
-
-/* text align right */
