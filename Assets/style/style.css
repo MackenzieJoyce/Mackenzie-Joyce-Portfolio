@@ -95,3 +95,22 @@ nav li {
     padding: 5px;
     background: var(--light);
 }
+
+        /* Page Content */
+#page-content { 
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center; 
+}
+
+#page-content h3 > div {
+    border-left: 3px solid var(--dark);
+}
+
+
+        /* About Me */
+.about-me h2 { 
+    text-align: right;
+}
+
+/* text align right */
