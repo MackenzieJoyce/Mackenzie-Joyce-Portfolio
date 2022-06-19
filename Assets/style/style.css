@@ -93,7 +93,7 @@ nav li {
     height: 200px;
     width: 100%;
     color: var(--gray);
-    background: url('./Assets/images.blue.wepg') lightblue;
+    background: url('/Assets/images/color.jpg') no-repeat 100% 100% lightblue;
 /* Needs fixing */
     display: flex;
     justify-content: end;
