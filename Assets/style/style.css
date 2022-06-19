@@ -83,7 +83,7 @@ nav li {
     height: 200px;
     width: 100%;
     color: var(--gray);
-    background-image: url("./Assets/images/hero.jpg");
+    background: url('./Assets/images.blue.wepg') lightblue;
     display: flex;
     justify-content: end;
     align-items: end;
