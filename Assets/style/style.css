@@ -46,16 +46,8 @@ a {
 }
 
 
-/* Styling */
-        /* Repeated Features */
-header h1, 
-.hero h2 { 
-    width: fit-content;
-    margin: 0;
-    padding: 5px 10px 5px 30px;
-    background-color: var(--light);
-}
 
+/* Styling */
         /* Header */
 header { 
     height: 100px;
@@ -64,6 +56,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+header h1 { 
+    width: fit-content;
+    margin: 0;
+    padding: 5px 10px 5px 30px;
+    background-color: var(--light);
 }
 
 nav ul { 
@@ -86,5 +85,12 @@ nav li {
     background-color: aqua;
     display: flex;
     justify-content: end;
-    align-items: center;
+    align-items: end;
+}
+
+.hero h2 { 
+    width: fit-content;
+    margin: 0 10px 30px 0;
+    padding: 5px;
+    background: var(--light);
 }
