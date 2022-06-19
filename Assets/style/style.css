@@ -76,6 +76,7 @@ nav ul {
     margin-right: 30px;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
 }
 
@@ -149,4 +150,17 @@ nav li {
     width: 50%;
     height: 25%;
     border: 5px solid var(--light);
+}
+
+        /* Contact Me */
+.contact-me > ul { 
+    display: flex;
+    justify-content: flex-end;
+/* ADD BOTTOM BORDER */
+}
+
+.contact-me > li, a { 
+    width: fit-content;
+    color: var(--dark);
+    border-bottom: 3px solid var(--dark);
 }
