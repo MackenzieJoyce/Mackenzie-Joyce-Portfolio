@@ -1,0 +1,6 @@
+/* Each section has h2 on left, content on right, and bar/border running between the two */
+/* Glow and opacity on hover */
+:root { 
+    --darkText: rgb(20, 21, 67); 
+    --lightText: rgb(0, 181, 163); 
+}
