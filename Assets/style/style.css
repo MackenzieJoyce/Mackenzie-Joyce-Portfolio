@@ -169,11 +169,7 @@ nav li {
     justify-content: center;
 }
 
-.contact-me  li > a { 
-    margin-left: 20px;
-    color: var(--dark);
-}
-
 .contact-me a { 
+    color: var(--dark);
     border-bottom: 3px solid var(--dark);
 }
