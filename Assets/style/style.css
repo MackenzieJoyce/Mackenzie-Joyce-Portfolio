@@ -173,3 +173,15 @@ nav li {
     color: var(--dark);
     border-bottom: 3px solid var(--dark);
 }
+
+        /* Footer */
+footer { 
+    height: 50px;
+    width: 100%;
+    color: var(--light);
+    text-align: center;
+    background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
