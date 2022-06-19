@@ -109,17 +109,15 @@ nav li {
 
         /* Portfolio - General */
 .portfolio {
-    width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+/* Puts h3 and content on same line */
     margin: 20px 100px 100px 0;
 }
 
 .portfolio-section {
     display: flex;
-    justify-content: center;
-/* Puts the h3 and content on the same row */
+/* Keeps everything on the page */
     margin-bottom: 25px;
 }
 
