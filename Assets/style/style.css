@@ -3,13 +3,13 @@
     --gray: rgb(53, 54, 62);
     --dark: rgb(37, 37, 69);
     --light: rgb(0, 181, 163);
-    --white-ish: rgb(255, 253, 250);
+    --offWhite: rgb(255, 253, 250);
 }
 
 /* Page + Typography */
 body {
     margin: 0;
-    background-color: var(--white-ish);
+    background-color: var(--offWhite);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
 }
