@@ -112,12 +112,14 @@ nav li {
     justify-content: center;
 }
 
+.portfolio-section { 
+    display: flex;
+}
+/* Puts every h3 and content on same row */
+
 
         /* About Me */
-.about-me { 
-    display: flex;
 
-}
 
 .about-me > div { 
     margin: 0 30px;
