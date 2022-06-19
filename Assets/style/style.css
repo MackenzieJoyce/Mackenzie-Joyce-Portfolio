@@ -1,6 +1,6 @@
 /* Variables */
 :root { 
-    --gray: rgb(71, 72, 84); 
+    --gray: rgb(53, 54, 62); 
     --dark: rgb(37, 37, 69);
     --light: rgb(0, 181, 163); 
 }
@@ -47,6 +47,16 @@ a {
 
 
 /* Styling */
+        /* Repeated Features */
+header h1, 
+.hero h2 { 
+    width: fit-content;
+    margin: 0;
+    padding: 5px 10px 5px 30px;
+    background-color: var(--light);
+}
+
+        /* Header */
 header { 
     height: 100px;
     width: 100%;
@@ -54,13 +64,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-header h1 { 
-    width: fit-content;
-    margin: 0;
-    padding: 5px 10px 5px 30px;
-    background-color: var(--light);
 }
 
 nav ul { 
@@ -73,4 +76,15 @@ nav ul {
 nav li { 
     border-bottom: 3px solid var(--light);
     margin: 0 10px;
+}
+
+    /* Hero */
+.hero { 
+    height: 200px;
+    width: 100%;
+    color: var(--gray);
+    background-color: aqua;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
