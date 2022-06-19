@@ -1,12 +1,12 @@
 /* Variables */
 :root { 
-    --dark: rgb(71, 72, 84); 
+    --gray: rgb(71, 72, 84); 
+    --dark: rgb(24, 24, 100);
     --light: rgb(0, 181, 163); 
 }
 
 /* Page + Typography */
 body { 
-    margin: 10px;
     background-color: rgb(255, 253, 250);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -15,20 +15,27 @@ body {
 h1 { 
     font-size: 2rem;
     font-weight: 700;
+    color: var(--dark);
 }
 
 h2 { 
     font-size: 1.8rem;
     font-weight: 600;
+    color: var(--dark);
 }
 
 h3 { 
     font-size: 1.5rem;
     font-weight: 500;
+    color: var(--dark);
 }
 
 p { 
     line-height: 1.2rem;
+}
+
+a { 
+    text-decoration: none;
 }
 
 
@@ -36,14 +43,16 @@ p {
 header { 
     height: 200px;
     width: 100%;
-    background-color: var(--dark);
+    background-color: var(--gray);
 }
 
-header nav { 
-    display: flex;
-    justify-content: flex-end;
+header h1 { 
+    margin: 20px;
 }
 
 nav ul { 
     color: var(--light);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
 }
