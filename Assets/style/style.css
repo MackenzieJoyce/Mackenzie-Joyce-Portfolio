@@ -142,7 +142,23 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+} 
+
+.hero img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.hero h2 {
+    width: fit-content;
+    margin: 20px 0;
+    background: var(--light);
+/* Similar but different to h1 styling */
+}
+
 /* ANIMATION START */
+.hero img, 
+.hero h2 {
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 3s;
     -moz-animation: fadeIn ease 3s;
@@ -196,17 +212,6 @@ nav a:hover {
 }
 /* ANIMATION END */
 
-.hero img {
-    border-radius: 50%;
-    margin-top: 20px;
-}
-
-.hero h2 {
-    width: fit-content;
-    margin: 20px 0;
-    background: var(--light);
-/* Similar but different to h1 styling */
-}
 
 /* Portfolio  */
 
@@ -223,11 +228,11 @@ nav a:hover {
     height: 300px;
     border: 5px solid var(--light);
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
 }
 
 .small-showcase { 
-    height: 100px;
+    height: 150px;
     border: 5px solid var(--light);
 }
 
