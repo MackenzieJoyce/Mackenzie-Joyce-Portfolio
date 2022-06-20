@@ -227,9 +227,9 @@ nav a:hover {
 }
 
 
-.contact-me ul {
-    list-style: none;
+.contact-me h4 {
     align-self: center;
+    margin: 0 10px;
 }
 
 .contact-me a { 
@@ -238,7 +238,7 @@ nav a:hover {
 }
 
 .contact-me a:hover { 
-    box-shadow: var(--glowGray)
+    box-shadow: var(--glowLight)
 }
 
         /* Footer */
