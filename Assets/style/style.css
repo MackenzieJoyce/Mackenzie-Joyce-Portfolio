@@ -197,6 +197,11 @@ nav a:hover {
     border: 5px solid var(--light);
 }
 
+.big-showcase:hover,
+.small-showcase:hover {
+    box-shadow: var(--glowGray)
+}
+
         /* Contact Me */
 .contact-me .grid-item-right {
     height: 75px;
