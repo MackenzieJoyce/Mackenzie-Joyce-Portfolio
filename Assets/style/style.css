@@ -172,11 +172,20 @@ nav a:hover {
     grid-template-columns: repeat(2, 50%);
 }
 
+#work a { 
+    padding: 0;
+}
+
 .big-showcase {
     height: 300px;
     border: 5px solid var(--light);
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.big-showcase img { 
+    object-fit: cover;
+    position: relative;
 }
 
 .small-showcase { 
@@ -186,13 +195,14 @@ nav a:hover {
 
 .big-showcase,
 .small-showcase {
+    background-color: var(--gray);
+    position: relative;
     opacity: .5;
     transition: all 0.5s ease-in-out;
 }
 
 .big-showcase:hover,
 .small-showcase:hover {
-    /* box-shadow: var(--glowLight); */
     opacity: 1;
 }
 
@@ -202,7 +212,7 @@ nav a:hover {
     padding: 10px 10px 10px 20px;
     color: var(--gray);
     background-color: var(--light);
-    position: relative;
+    position: absolute;
 }
 
 .big-showcase .showcase-label { 
