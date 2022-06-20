@@ -189,17 +189,22 @@ nav a:hover {
     width: 500px;
     height: 300px;
     border: 5px solid var(--light);
+    opacity: .5;
+    transition: all 0.5s ease-in-out;
 }
 
 .small-showcase { 
     width: 300px;
     height: 100px;
     border: 5px solid var(--light);
+    opacity: .5;
+    transition: all 0.5s ease-in-out;
 }
 
 .big-showcase:hover,
 .small-showcase:hover {
-    box-shadow: var(--glowGray)
+    box-shadow: var(--glowLight);
+    opacity: 1;
 }
 
         /* Contact Me */
@@ -212,10 +217,6 @@ nav a:hover {
 .contact-me ul {
     list-style: none;
     align-self: center;
-}
-
-.contact-me li { 
-    background-color: rgb(241, 204, 155);
 }
 
 .contact-me a { 
