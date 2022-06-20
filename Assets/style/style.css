@@ -4,6 +4,9 @@
     --dark: rgb(37, 37, 69);
     --light: rgb(0, 181, 163);
     --offWhite: rgb(255, 253, 250);
+    --glowLight: 0 0 8px var(--light);
+    --glowGray: 0 0 8px var(--gray);
+
 }
 
 /* Page + Typography */
@@ -116,6 +119,10 @@ nav li {
     border-bottom: 3px solid var(--light);
 }
 
+nav a:hover {
+    box-shadow: var(--glowLight)
+}
+
         /* Hero */
 .hero {
     height: 200px;
@@ -194,6 +201,7 @@ nav li {
 
 .contact-me ul {
     list-style: none;
+
 }
 
 .contact-me li { 
@@ -203,6 +211,10 @@ nav li {
 .contact-me a { 
     color: var(--dark);
     border-bottom: 3px solid var(--dark);
+}
+
+.contact-me a:hover { 
+    box-shadow: var(--glowGray)
 }
 
         /* Footer */
