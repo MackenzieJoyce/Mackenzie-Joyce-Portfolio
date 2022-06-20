@@ -7,6 +7,8 @@
     --glowLight: 0 0 8px var(--light);
     --glowGray: 0 0 8px var(--gray);
     --margin-10: 10px;
+    --margin-20: 20px;
+
 }
 
 /* Page + Typography */
@@ -111,9 +113,12 @@ header {
 header h1 {
     width: fit-content;
     margin: 15px 0;
-    padding: 5px 10px 5px 50px;
+    padding: 8px 10px 8px 50px;
     background-color: var(--light);
+    display: flex;
+    align-items: flex-end;
 }
+
 
 nav ul {
     margin-right: 30px;
@@ -129,11 +134,7 @@ nav li {
 nav a { 
     color: var(--light);
 }
-/* 
-nav a:hover {
-    border-radius: 3px;
-    box-shadow: var(--glowLight)
-} */
+
 
         /* Hero */
 .hero {
@@ -143,21 +144,32 @@ nav a:hover {
     color: var(--gray);
     background-color: lightblue;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 } 
 
-.hero img {
-    border-radius: 50%;
-    margin-top: 20px;
+.hero figure { 
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+
 }
 
-.hero h2 {
-    width: fit-content;
-    margin: 20px 0;
+.hero img { 
+    border-radius: 50%;
+}
+
+.hero div {
+    width: 300px;
+    margin: 0 40px 10px 0;
+    align-self: flex-end;
+}
+
+.hero h2 { 
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: center;
     background: var(--light);
-/* Similar but different to h1 styling */
 }
 
 /* Portfolio  */
