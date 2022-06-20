@@ -138,20 +138,73 @@ nav a:hover {
     margin-bottom: var(--margin-10);
     color: var(--gray);
     background-color: lightblue;
-    object-fit: cover;
-/* Needs fixing */
     display: flex;
-    justify-content: end;
-    align-items: end;
-/* Puts slogan toward bottom right */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/* ANIMATION START */
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+/* ANIMATION END */
+
+.hero img {
+    border-radius: 50%;
+    margin-top: 20px;
 }
 
 .hero h2 {
     width: fit-content;
-    margin: 0 75px 30px 0;
-    padding: 5px;
+    margin: 20px 0;
     background: var(--light);
-    text-align: right;
 /* Similar but different to h1 styling */
 }
 
