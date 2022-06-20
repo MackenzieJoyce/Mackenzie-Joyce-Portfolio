@@ -76,6 +76,7 @@ p {
 
 a {
     padding: 10px;
+    text-align: center;
     text-decoration: none;
     border-radius: 3px;
     border-bottom: 3px solid;
@@ -160,7 +161,7 @@ nav a:hover {
 
 
         /* Work */
-.work > div { 
+#work > div { 
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(2, 200px);
@@ -190,7 +191,7 @@ nav a:hover {
 }
 
         /* Contact Me */
-.contact-me .grid-item-right {
+#contact-me .grid-item-right {
     width: 100%;
     height: 75px;
     display: flex;
@@ -199,16 +200,17 @@ nav a:hover {
 }
 
 
-.contact-me h4 {
+#contact-me h4 {
     align-self: center;
     margin: 0 10px;
 }
 
-.contact-me a { 
+
+#contact-me a { 
     color: var(--dark);
 }
 
-.contact-me a:hover { 
+#contact-me a:hover { 
     box-shadow: var(--glowLight)
 }
 
