@@ -74,6 +74,7 @@ p {
 }
 
 a {
+    padding: 10px;
     text-decoration: none;
     color: var(--light);
 }
@@ -184,16 +185,19 @@ nav li {
 }
 
         /* Contact Me */
-.contact-me {
-    
+.contact-me .grid-item-right {
+    height: 75px;
+    display: flex;
+    align-content: center;
 }
 
 
 .contact-me ul {
     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.contact-me li { 
+    background-color: rgb(241, 204, 155);
 }
 
 .contact-me a { 
