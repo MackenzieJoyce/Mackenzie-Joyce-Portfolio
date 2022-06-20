@@ -91,6 +91,10 @@ li {
     padding: 0 3px 3px 3px;
 }
 
+img { 
+    object-fit: contain;
+}
+
 
 
 /* Styling */
@@ -197,6 +201,10 @@ nav a:hover {
     width: 300px;
     height: 100px;
     border: 5px solid var(--light);
+}
+
+.big-showcase,
+.small-showcase {
     opacity: .5;
     transition: all 0.5s ease-in-out;
 }
@@ -206,6 +214,11 @@ nav a:hover {
     box-shadow: var(--glowLight);
     opacity: 1;
 }
+
+/* .big-showcase img,
+.small-showcase img {
+    object-fit: contain;
+} */
 
         /* Contact Me */
 .contact-me .grid-item-right {
