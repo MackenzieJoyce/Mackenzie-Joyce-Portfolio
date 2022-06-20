@@ -6,6 +6,7 @@
     --offWhite: rgb(255, 253, 250);
     --glowLight: 0 0 8px var(--light);
     --glowGray: 0 0 8px var(--gray);
+    --margin-10: 10px;
 
 }
 
@@ -34,9 +35,10 @@ main {
 }
 
 .grid-item-left { 
-    text-align: right;
     width: 200px;
     height: fit-content;
+    margin-top: var(--margin-10);
+    text-align: right;
     /* background-color: antiquewhite; */
 }
 
@@ -44,6 +46,7 @@ main {
     width: 500px;
     height: fit-content;
     padding-left: 10px;
+    margin-top: var(--margin-10);
     margin-bottom: 10px;
     background-color: antiquewhite;
     border-left: 5px solid var(--dark)
@@ -128,6 +131,7 @@ nav a:hover {
 .hero {
     height: 200px;
     width: 100%;
+    margin-bottom: var(--margin-10);
     color: var(--gray);
     background: url('/Assets/images/color.jpg') no-repeat 100% 100% lightblue;
 /* Needs fixing */
@@ -173,6 +177,7 @@ nav a:hover {
 }
 
         /* About Me */
+
 
         /* Work */
 .work > div { 
@@ -222,6 +227,7 @@ nav a:hover {
 footer { 
     height: 50px;
     width: 100%;
+    margin-top: var(--margin-10);
     color: var(--light);
     text-align: center;
     background-color: var(--gray);
