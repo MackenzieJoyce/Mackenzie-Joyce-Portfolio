@@ -219,22 +219,23 @@ nav a:hover {
 
 
         /* Work */
-#work > div { 
+#work .grid-item-right { 
     display: grid;
     gap: .5rem;
+    grid-template-columns: repeat(2, 50%);
 }
+
 .big-showcase {
     height: 300px;
     border: 5px solid var(--light);
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
 }
 
 .small-showcase { 
     height: 150px;
     border: 5px solid var(--light);
-    grid-column-start: 1;
-    grid-column-end: 3;
+
 }
 
 .big-showcase,
