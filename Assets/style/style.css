@@ -30,8 +30,6 @@ main {
     column-gap: 20px;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
-    /* padding: 10px; */
-    /* background-color: rgb(92, 248, 144); */
 }
 
 .grid-item-left { 
@@ -39,7 +37,6 @@ main {
     height: fit-content;
     margin-top: var(--margin-10);
     text-align: right;
-    /* background-color: antiquewhite; */
 }
 
 .grid-item-right { 
@@ -160,29 +157,13 @@ nav a:hover {
 }
 
         /* Portfolio - General */
-/* .portfolio {
-
-
-    /* display: flex;
-    flex-direction: column; */
-/* Puts h3 and content on same line */
-    /* margin: 20px 100px 100px 0; */
-*/
 
 .portfolio-section {
-
-
-    /* display: flex; */
-/* Keeps everything on the page */
     width: 100%;
     margin-bottom: 25px;
 }
 
 .portfolio-section h2 {
-    /* margin: 0 30px; */
-    /* padding-top: 10px;
-    padding-right: 15px; */
-    /* text-align: right; */
     border-right: 5px solid var(--light);
 }
 
@@ -218,11 +199,6 @@ nav a:hover {
     box-shadow: var(--glowLight);
     opacity: 1;
 }
-
-/* .big-showcase img,
-.small-showcase img {
-    object-fit: contain;
-} */
 
         /* Contact Me */
 .contact-me .grid-item-right {
