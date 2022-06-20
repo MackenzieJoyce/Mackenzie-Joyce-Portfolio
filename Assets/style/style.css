@@ -82,7 +82,8 @@ p {
 a {
     padding: 10px;
     text-decoration: none;
-    color: var(--light);
+    border-radius: 3px;
+    border-bottom: 3px solid;
 }
 
 li { 
@@ -123,10 +124,14 @@ nav ul {
 
 nav li {
     color: var(--light);
-    border-bottom: 3px solid var(--light);
+}
+
+nav a { 
+    color: var(--light);
 }
 
 nav a:hover {
+    border-radius: 3px;
     box-shadow: var(--glowLight)
 }
 
@@ -234,7 +239,6 @@ nav a:hover {
 
 .contact-me a { 
     color: var(--dark);
-    border-bottom: 3px solid var(--dark);
 }
 
 .contact-me a:hover { 
