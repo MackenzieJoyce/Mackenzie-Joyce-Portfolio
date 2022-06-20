@@ -133,11 +133,11 @@ nav a:hover {
 
         /* Hero */
 .hero {
-    height: 200px;
+    height: 400px;
     width: 100%;
     margin-bottom: var(--margin-10);
     color: var(--gray);
-    background: url('/Assets/images/color.jpg') no-repeat lightblue;
+    background-color: lightblue;
     object-fit: cover;
 /* Needs fixing */
     display: flex;
