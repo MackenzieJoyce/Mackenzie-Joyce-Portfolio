@@ -71,7 +71,6 @@ h4 {
 
 p {
     line-height: 1.2rem;
-    margin-bottom: .8rem;
 }
 
 a {
@@ -125,11 +124,11 @@ nav li {
 nav a { 
     color: var(--light);
 }
-
+/* 
 nav a:hover {
     border-radius: 3px;
     box-shadow: var(--glowLight)
-}
+} */
 
         /* Hero */
 .hero {
@@ -155,63 +154,6 @@ nav a:hover {
     background: var(--light);
 /* Similar but different to h1 styling */
 }
-
-/* ANIMATION START */
-.hero img, 
-.hero h2 {
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 3s;
-    -moz-animation: fadeIn ease 3s;
-    -o-animation: fadeIn ease 3s;
-    -ms-animation: fadeIn ease 3s;
-}
-
-@keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-  }
-}
-/* ANIMATION END */
-
 
 /* Portfolio  */
 
@@ -259,7 +201,7 @@ nav a:hover {
 
 .big-showcase:hover,
 .small-showcase:hover {
-    box-shadow: var(--glowLight);
+    /* box-shadow: var(--glowLight); */
     opacity: 1;
 }
 
@@ -283,9 +225,9 @@ nav a:hover {
     color: var(--dark);
 }
 
-#contact-me a:hover { 
+/* #contact-me a:hover { 
     box-shadow: var(--glowLight)
-}
+} */
 
         /* Footer */
 footer { 
