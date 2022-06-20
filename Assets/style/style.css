@@ -1,7 +1,7 @@
 /* Variables */
 :root {
     --gray: rgb(53, 54, 62);
-    --dark: rgb(37, 37, 69);
+    --dark: rgb(40, 40, 108);
     --light: rgb(0, 181, 163);
     --offWhite: rgb(255, 253, 250);
     --glowLight: 0 0 8px var(--light);
