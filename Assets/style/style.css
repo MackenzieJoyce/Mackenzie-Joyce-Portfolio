@@ -206,13 +206,12 @@ nav a:hover {
 .contact-me .grid-item-right {
     height: 75px;
     display: flex;
-    align-content: center;
 }
 
 
 .contact-me ul {
     list-style: none;
-
+    align-self: center;
 }
 
 .contact-me li { 
