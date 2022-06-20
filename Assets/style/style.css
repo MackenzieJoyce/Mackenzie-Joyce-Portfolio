@@ -232,10 +232,23 @@ nav a:hover {
     grid-column-end: 3;
 }
 
+.big-showcase h4, 
+.big-showcase span { 
+    position: relative;
+    top: 70%;
+    left: 5%;
+}
+
+.small-showcase h4, 
+.small-showcase span { 
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+
 .small-showcase { 
     height: 150px;
     border: 5px solid var(--light);
-
 }
 
 .big-showcase,
