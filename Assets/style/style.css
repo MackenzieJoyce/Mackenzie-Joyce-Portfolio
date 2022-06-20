@@ -137,7 +137,8 @@ nav a:hover {
     width: 100%;
     margin-bottom: var(--margin-10);
     color: var(--gray);
-    background: url('/Assets/images/color.jpg') no-repeat 100% 100% lightblue;
+    background: url('/Assets/images/color.jpg') no-repeat lightblue;
+    object-fit: cover;
 /* Needs fixing */
     display: flex;
     justify-content: end;
@@ -193,8 +194,6 @@ nav a:hover {
     width: 500px;
     height: 300px;
     border: 5px solid var(--light);
-    opacity: .5;
-    transition: all 0.5s ease-in-out;
 }
 
 .small-showcase { 
