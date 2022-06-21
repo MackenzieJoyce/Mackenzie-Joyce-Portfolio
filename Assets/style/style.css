@@ -91,7 +91,7 @@ img {
 
 
 
-/* Styling */
+/* Main Styling */
         /* Header */
 header {
     height: fit-content;
@@ -169,7 +169,6 @@ nav a {
     background: var(--light);
 }
 
-/* Portfolio  */
 
         /* About Me */
 
@@ -253,6 +252,7 @@ nav a {
     color: var(--dark);
 }
 
+
         /* Footer */
 footer { 
     height: 50px;
@@ -274,7 +274,7 @@ footer {
 
 
 /* Media Queries */
-/* 769 */
+    /* 769 */
 @media screen and (max-width: 769px) {
     .grid-container {
         grid-template-columns: auto;
@@ -363,20 +363,12 @@ footer {
         margin-bottom: 10px;
     }
 }
-/* END 767 */
+    /* END 767 */
 
 
 
 
-
-
-
-
-
-
-
-
-/* 500 */
+    /* 500 */
 @media screen and (max-width: 500px) {
     .grid-container {
         width: 95%;
@@ -413,3 +405,4 @@ footer {
         grid-template-columns: repeat(2, 49%);
     }
 }
+    /* END 500 */
