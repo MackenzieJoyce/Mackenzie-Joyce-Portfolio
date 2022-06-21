@@ -6,9 +6,6 @@
     --offWhite: rgb(255, 253, 250);
     --glowLight: 0 0 8px var(--light);
     --glowGray: 0 0 8px var(--gray);
-    --margin-10: 10px;
-    --margin-20: 20px;
-
 }
 
 /* Page + Typography */
@@ -36,15 +33,15 @@ main {
 
 .grid-item-left { 
     height: fit-content;
-    margin-top: var(--margin-10);
+    margin-top: 10px;
     text-align: right;
 }
 
 .grid-item-right { 
     height: fit-content;
     padding: 0 0 20px 15px;
-    margin-top: var(--margin-10);
-    margin-bottom: var(--margin-10);
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-left: 5px solid var(--dark)
 }
 
@@ -140,7 +137,7 @@ nav a {
 .hero {
     height: 400px;
     width: 100%;
-    margin-bottom: var(--margin-10);
+    margin-bottom: 10px;
     color: var(--gray);
     background-color: lightblue;
     display: flex;
@@ -260,7 +257,7 @@ nav a {
 footer { 
     height: 50px;
     width: 100%;
-    margin-top: var(--margin-10);
+    margin-top: 10px;
     color: var(--light);
     text-align: center;
     background-color: var(--gray);
@@ -277,7 +274,7 @@ footer {
 
 
 /* Media Queries */
-/* 766 */
+/* 769 */
 @media screen and (max-width: 769px) {
     .grid-container {
         width: 70%;
@@ -290,39 +287,45 @@ footer {
     
     .grid-item-left { 
         height: fit-content;
-        margin-top: var(--margin-10);
+        margin-top: 10px;
         text-align: left;
     }
     
     .grid-item-right { 
         height: fit-content;
         padding: 0 0 20px 15px;
-        margin-top: var(--margin-10);
-        margin-bottom: var(--margin-10);
+        margin-top: 10px;
+        margin-bottom: 20px;
         border-left: 5px solid var(--dark)
     }
 
     h1 {
         font-size: 3rem;
-        font-weight: 1000;
+        font-weight: 800;
         color: var(--gray);
     }
     
     h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 1000;
         color: var(--dark);
     }
     
     h3 {
-        font-size: 1.8rem;
+        font-size: 2.3rem;
         font-weight: 900;
         color: var(--gray);
     }
     
     h4 {
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: 500;
+    }
+
+    p { 
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.6rem;
     }
 
     header { 
@@ -338,7 +341,7 @@ footer {
 
     nav ul { 
         width: 100%;
-        margin: 10px 0;
+        margin: 10px 0 15px 0;
     }
 
     .hero { 
@@ -375,6 +378,10 @@ footer {
         width: 100%;
         font-size: .5rem;
     }
+
+    #contact-me h4 { 
+        margin-bottom: 10px;
+    }
 }
 /* END 767 */
 
@@ -389,8 +396,8 @@ footer {
 
 
 
-/* 481 */
-@media screen and (max-width: 481px) {
+/* 426 */
+@media screen and (max-width: 426px) {
     .grid-container {
         width: 95%;
         display: grid;
