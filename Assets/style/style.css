@@ -102,18 +102,18 @@ header {
     justify-content: space-between;
 }
 
-header h1 {
-    padding: 20px 10px 20px 10px;
-    margin: 0 20px;
-}
-
 header div { 
     width: 40%; 
     background-color: var(--light);
     display: flex;
     justify-content: center;
 }
+/* box the h1 is in */
 
+header h1 {
+    padding: 20px 10px 20px 10px;
+    margin: 0 20px;
+}
 
 nav ul {
     margin-right: 30px;
@@ -322,7 +322,7 @@ footer {
     header div { 
         width: 100%; 
     }
-/* com back to this */
+    /* box the h1 is in */
 
     header h1 { 
         margin: 0;
