@@ -255,10 +255,6 @@ nav a {
     color: var(--dark);
 }
 
-/* #contact-me a:hover { 
-    box-shadow: var(--glowLight)
-} */
-
         /* Footer */
 footer { 
     height: 50px;
@@ -280,8 +276,109 @@ footer {
 
 
 /* Media Queries */
-/* Samsung Galaxy A51/71 */
-@media screen and (max-width: 426px) {
+/* 678 */
+@media screen and (max-width: 767px) {
+    .grid-container {
+        width: 70%;
+        display: grid;
+        margin: 10px 0;
+        column-gap: 20px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+    
+    .grid-item-left { 
+        height: fit-content;
+        margin-top: var(--margin-10);
+        text-align: left;
+    }
+    
+    .grid-item-right { 
+        height: fit-content;
+        padding: 0 0 20px 15px;
+        margin-top: var(--margin-10);
+        margin-bottom: var(--margin-10);
+        border-left: 5px solid var(--dark)
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 1000;
+        color: var(--gray);
+    }
+    
+    h2 {
+        font-size: 2rem;
+        font-weight: 1000;
+        color: var(--dark);
+    }
+    
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 900;
+        color: var(--gray);
+    }
+    
+    h4 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    header { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    header h1 { 
+        text-align: center;
+        margin: 0;
+        padding: 10px 100% 20px 100%;
+    }
+
+    nav ul { 
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .hero { 
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero figure { 
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero img { 
+        width: 200px;
+    }
+
+    .hero div {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .hero h2 { 
+        font-size: 2rem;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        background: var(--light);
+    }
+
+    .showcase-label { 
+        width: 100%;
+        font-size: .5rem;
+    }
+}
+
+
+/* 480 */
+@media screen and (max-width: 481px) {
     .grid-container {
         width: 70%;
         display: grid;
@@ -330,6 +427,7 @@ footer {
     }
 
     header { 
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -343,12 +441,11 @@ footer {
 
     nav { 
         margin-bottom: 20px;
-        display: flex;
     }
 
     nav ul { 
+        width: 100%;
         margin: 0;
-        justify-content: center;
     }
 
     .hero { 
@@ -382,7 +479,9 @@ footer {
     }
 
     .showcase-label { 
+        width: 100%;
         font-size: .5rem;
     }
 }
+
 
