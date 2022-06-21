@@ -78,16 +78,11 @@ a {
 }
 
 .btn {
-    padding: 10px;
+    padding: 10px 0;
     text-align: center;
     text-decoration: none;
     border-radius: 3px;
     border-bottom: 3px solid;
-}
-
-li { 
-    margin: 0 8px;
-    padding: 0 3px 3px 3px;
 }
 
 img { 
@@ -108,12 +103,15 @@ header {
 }
 
 header h1 {
-    width: fit-content;
-    margin: 15px 0;
-    padding: 8px 10px 8px 50px;
+    padding: 20px 10px 20px 10px;
+    margin: 0 20px;
+}
+
+header div { 
+    width: 40%; 
     background-color: var(--light);
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
 }
 
 
@@ -122,9 +120,12 @@ nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav li {
+    margin: 2px 8px;
+    padding: 0 3px 3px 3px;
     color: var(--light);
 }
 
@@ -239,13 +240,13 @@ nav a {
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 
 #contact-me h4 {
     align-self: center;
-    margin: 0 10px;
+    margin: 10px 10px 0 0;
 }
 
 
@@ -277,49 +278,32 @@ footer {
 /* 769 */
 @media screen and (max-width: 769px) {
     .grid-container {
-        width: 70%;
-        display: grid;
-        margin: 10px 0;
-        column-gap: 20px;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
     }
     
     .grid-item-left { 
-        height: fit-content;
-        margin-top: 10px;
         text-align: left;
     }
     
     .grid-item-right { 
-        height: fit-content;
-        padding: 0 0 20px 15px;
-        margin-top: 10px;
         margin-bottom: 20px;
-        border-left: 5px solid var(--dark)
     }
 
     h1 {
-        font-size: 3rem;
         font-weight: 800;
-        color: var(--gray);
     }
     
     h2 {
-        font-size: 2.5rem;
-        font-weight: 1000;
-        color: var(--dark);
+        font-size: 2rem;
     }
     
     h3 {
         font-size: 2.3rem;
-        font-weight: 900;
-        color: var(--gray);
     }
     
     h4 {
         font-size: 1.3rem;
-        font-weight: 500;
     }
 
     p { 
@@ -328,32 +312,36 @@ footer {
         line-height: 1.6rem;
     }
 
+  /* Styling */
+        /* Header */  
     header { 
-        display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
+    header div { 
+        width: 100%; 
+    }
+/* com back to this */
+
     header h1 { 
-        text-align: center;
         margin: 0;
-        padding: 10px 100% 20px 100%;
+        padding: 20px;
     }
 
     nav ul { 
         width: 100%;
-        margin: 10px 0 15px 0;
+        margin: 10px 0;
     }
 
     .hero { 
         height: fit-content;
-        display: flex;
         flex-direction: column;
     }
 
     .hero figure { 
         width: 100%;
         margin: 20px 0;
-        display: flex;
         justify-content: center;
     }
 
@@ -365,15 +353,8 @@ footer {
         width: 100%;
         margin: 0;
     }
-    
-    .hero h2 { 
-        font-size: 2rem;
-        margin-bottom: 20px;
-        padding: 10px 20px;
-        text-align: center;
-        background: var(--light);
-    }
 
+        /* Portfolio  */
     .showcase-label { 
         width: 100%;
         font-size: .5rem;
@@ -398,153 +379,20 @@ footer {
 
 /* 426 */
 @media screen and (max-width: 426px) {
-    .grid-container {
-        width: 95%;
-        display: grid;
-        margin: 0;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
-    }
-    
-    .grid-item-right { 
-        padding: 15px 15px 20px 0px;
-        border-top: 5px solid var(--dark);
-        border-left: none;
+    h1 { 
+        font-size: 2rem;
     }
 
-
-    h1 {
-        font-size: 1.2rem;
-        font-weight: 1000;
-        color: var(--gray);
-    }
-    
-    h2 {
-        font-size: .8rem;
-        font-weight: 1000;
-        color: var(--dark);
-    }
-    
-    h3 {
-        font-size: .5rem;
-        font-weight: 900;
-        color: var(--gray);
-    }
-    
-    h4 {
-        font-size: .4rem;
-        font-weight: 500;
+    h2 { 
+        font-size: 1.3rem;
     }
 
-    p {
-        font-size: .5rem;
-        line-height: .8rem;
-    }
-
-    .btn {
-        padding: 0;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 3px;
-        border-bottom: 3px solid;
-    } 
-
-    header {
-        height: fit-content;
-        width: 100%;
-        background-color: var(--gray);
+    nav ul { 
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    header h1 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        background-color: var(--light);
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    
-    nav ul {
-        margin: 0;
-    }
-    
-    
-            /* Hero */
-    .hero {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     } 
-    
-    .hero figure { 
-        width: 10px;
-    }
-    
-    .hero div {
-        width: 100px;
-        margin: 0 40px 10px 0;
-    }
-    
-    .hero h2 { 
-        margin-bottom: 20px;
-        padding: 10px 20px;
-        text-align: center;
-        background: var(--light);
-    } 
-    
-    /* Portfolio  */
-    
-            /* About Me */
-    
-    
-            /* Work */
-    #work .grid-item-right { 
-        display: grid;
-        gap: .3rem;
-        grid-template-columns: repeat(2, 50%);
-    }
-    
-    #work a { 
-        padding: 0;
-    }
-    
-    .big-showcase {
-        height: 300px;
-        border: 5px solid var(--light);
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-    
-    .big-showcase img { 
-        object-fit: cover;
-        position: relative;
-    }
-    
-    .small-showcase { 
-        height: 150px;
-        border: 5px solid var(--light);
-    }
-    
-    .big-showcase,
-    .small-showcase {
-        height: 50px;
-    }
-    
-    .showcase-label { 
-        padding: 5px 5px 5px 10px;
-    } 
-    
-            /* Contact Me */
-    #contact-me .grid-item-right {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+
+    nav li { 
+        margin: 10px 0;
     }
 }
