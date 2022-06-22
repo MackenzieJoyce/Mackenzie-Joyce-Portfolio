@@ -6,6 +6,8 @@
     --off-white: #F1EFE4;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;700&display=swap');
+
 /* Page + Typography */
 body {
     margin: 0;
