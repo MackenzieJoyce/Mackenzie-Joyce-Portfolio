@@ -8,16 +8,29 @@ https://mackenziejoyce.github.io/My-Portfolio/
 Screenshots at different dimensions:
 
 When you open the window
+
 ![Laptop view](screenshots/Laptop1.png)
 
+
+
 Laptop: 1440 x 1457  
+
 ![Laptop view in inspector](screenshots/Laptop2.png)
 
+
+
 Tablet: 768 X 1457
+
 ![Tablet view in inspector](screenshots/Tablet.png)
 
+
+
 Large mobile: 425 x 1457
+
 ![Large Mobile view in inspector](screenshots/MobileL.png)
 
+
+
 Medium mobile: 375 X 1457
+
 ![Medium Mobile view in inspector](screenshots/MobileM.png)
